@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637810580787720286
-    m_Hash: 1303344902
+      ticks: 637810635819281688
+    m_Hash: 176281830
   m_LockFileStatus:
     m_FilePath: D:/Descargas/escuela/vr2/LeapMotionParcial1/leapmotionp1/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637810580787730285
-    m_Hash: 2396165432
+      ticks: 637810636046347752
+    m_Hash: 412994727
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -2645,6 +2645,7 @@ m_PackageAssets:
         scopes:
         - com.littlebigfun.addressable-importer
         - com.openupm
+        - com.ultraleap.tracking
         isDefault: 0
         capabilities: 0
       hasRegistry: 1
@@ -2924,6 +2925,69 @@ m_PackageAssets:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/Addressables.git
         revision: 7430a17e265967737a63efcf96f3e74aef76b8b4
+        path: 
+    - packageId: com.ultraleap.tracking@5.3.0
+      testable: 0
+      isDirectDependency: 1
+      version: 5.3.0
+      source: 1
+      resolvedPath: D:\Descargas\escuela\vr2\LeapMotionParcial1\leapmotionp1\Library\PackageCache\com.ultraleap.tracking@5.3.0
+      assetPath: Packages/com.ultraleap.tracking
+      name: com.ultraleap.tracking
+      displayName: Ultraleap Tracking
+      author:
+        name: Ultraleap
+        email: contact@ultraleap.com
+        url: https://www.ultraleap.com
+      category: 
+      type: 
+      description: Ultraleap's Unity Plugin enables the data produced by Ultraleap
+        tracking hardware to be used by developers inside their Unity projects. It
+        includes various utilities and prefabs that make it as easy as possible to
+        design and use hand tracking in XR projects
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 5.0.0
+        - 5.1.0
+        - 5.2.0
+        - 5.3.0
+        compatible:
+        - 5.0.0
+        - 5.1.0
+        - 5.2.0
+        - 5.3.0
+        verified: 
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - ultraleap
+      - leap motion
+      - hand tracking
+      - tracking
+      registry:
+        id: scoped:package.openupm.com
+        name: package.openupm.com
+        url: https://package.openupm.com
+        scopes:
+        - com.littlebigfun.addressable-importer
+        - com.openupm
+        - com.ultraleap.tracking
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637807768943810000
+      documentationUrl: https://docs.ultraleap.com/
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
         path: 
     - packageId: com.unity.scriptablebuildpipeline@1.19.6
       testable: 0

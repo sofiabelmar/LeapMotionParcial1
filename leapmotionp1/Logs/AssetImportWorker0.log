@@ -1,0 +1,315 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.26f1 (7298b473bc1a) revision 7510196'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'es' Physical Memory: 12220 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\Descargas\apps\Unity\Editor\2020.3.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Descargas/escuela/vr2/LeapMotionParcial1/leapmotionp1
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+1845
+Successfully changed project path to: D:/Descargas/escuela/vr2/LeapMotionParcial1/leapmotionp1
+D:/Descargas/escuela/vr2/LeapMotionParcial1/leapmotionp1
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 145.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.26f1 (7298b473bc1a)
+[Subsystems] Discovering subsystems at path D:/Descargas/apps/Unity/Editor/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Descargas/escuela/vr2/LeapMotionParcial1/leapmotionp1/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 740 (ID=0xfc8)
+    Vendor:   
+    VRAM:     2007 MB
+    Driver:   30.0.14.7141
+Initialize mono
+Mono path[0] = 'D:/Descargas/apps/Unity/Editor/2020.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Descargas/apps/Unity/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Descargas/apps/Unity/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56304
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Descargas/apps/Unity/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.027930 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 48.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.986 seconds
+Domain Reload Profiling:
+	ReloadAssembly (987ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (721ms)
+			LoadAssemblies (127ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (250ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (254ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (49ms)
+				BeforeProcessingInitializeOnLoad (18ms)
+				ProcessInitializeOnLoadAttributes (119ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.133029 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.849 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1851ms)
+		BeginReloadAssembly (261ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (1509ms)
+			LoadAssemblies (447ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (420ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (495ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (131ms)
+				ProcessInitializeOnLoadAttributes (297ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.27 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1980 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.0 MB.
+System memory in use after: 83.1 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2412.
+Total: 4.396600 ms (FindLiveObjects: 0.382300 ms CreateObjectMapping: 0.219500 ms MarkObjects: 3.700400 ms  DeleteObjects: 0.092400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/materiales/Figuras_Cubo_Normal.png
+  artifactKey: Guid(611229319dfca80419416a4c13f6ce22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materiales/Figuras_Cubo_Normal.png using Guid(611229319dfca80419416a4c13f6ce22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8e6f865d2fd1fac2fcada97949d032f') in 0.359973 seconds 
+  Import took 0.384378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/materiales/Figuras_Esfera_Normal.png
+  artifactKey: Guid(a22d2cbdb29fbd14a94e1b2ba041b8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materiales/Figuras_Esfera_Normal.png using Guid(a22d2cbdb29fbd14a94e1b2ba041b8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e73e38d2f06dbe0a15e483fc6d2e3d12') in 0.131891 seconds 
+  Import took 0.147819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/materiales/Figuras_Esfera_Roughness.png
+  artifactKey: Guid(f038120fc768f9c4c9330217ce693722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materiales/Figuras_Esfera_Roughness.png using Guid(f038120fc768f9c4c9330217ce693722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65738dd592dc8158b96a632d283f2c09') in 0.103286 seconds 
+  Import took 0.115441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/objetos/Cubo.obj
+  artifactKey: Guid(18265979dcac208468a3a89903f619d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/objetos/Cubo.obj using Guid(18265979dcac208468a3a89903f619d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8450491df68d4423412b217d22d1173d') in 0.436314 seconds 
+  Import took 0.453956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/materiales/Figuras_Esfera_Height.png
+  artifactKey: Guid(ebc217d9776bc544bb9bfd371fd8416d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materiales/Figuras_Esfera_Height.png using Guid(ebc217d9776bc544bb9bfd371fd8416d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78078c8b82c52eb98328d2709ef23513') in 0.089440 seconds 
+  Import took 0.093530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/materiales/Figuras_Piramide_Emissive.png
+  artifactKey: Guid(c1ffca931e5fd02478469fb5df228d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materiales/Figuras_Piramide_Emissive.png using Guid(c1ffca931e5fd02478469fb5df228d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f7cc3aab5e0da68d7d0b5963f605c92') in 0.158289 seconds 
+  Import took 0.176289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/materiales/Figuras_Piramide_Roughness.png
+  artifactKey: Guid(daee6913b16796949a06812b6d1ecc67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materiales/Figuras_Piramide_Roughness.png using Guid(daee6913b16796949a06812b6d1ecc67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aee2ba7ea884b167757bac75776cfed1') in 0.103744 seconds 
+  Import took 0.136267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/materiales/Figuras_Cubo_BaseColor.png
+  artifactKey: Guid(37a713dedf66c474d958a20bd133be7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materiales/Figuras_Cubo_BaseColor.png using Guid(37a713dedf66c474d958a20bd133be7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44bb8401bde72e7286e3bbbfc447aaab') in 0.084052 seconds 
+  Import took 0.101941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000475 seconds.
+  path: Assets/materiales/Figuras_Cubo_Roughness.png
+  artifactKey: Guid(3c2f816c11d33b14984faf3ea73aaef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materiales/Figuras_Cubo_Roughness.png using Guid(3c2f816c11d33b14984faf3ea73aaef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d728eee276b118d5cb39a421e1160aa') in 0.102656 seconds 
+  Import took 0.127040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/materiales/Figuras_Piramide_BaseColor.png
+  artifactKey: Guid(3d35281416b656b42846d77e6b0538ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materiales/Figuras_Piramide_BaseColor.png using Guid(3d35281416b656b42846d77e6b0538ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bbf4976bc881eb4a7a0c36f5ef906e2') in 0.107687 seconds 
+  Import took 0.150742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/objetos/Piramide.obj
+  artifactKey: Guid(cbbfa1469b809d546a59e8adaf1a92db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/objetos/Piramide.obj using Guid(cbbfa1469b809d546a59e8adaf1a92db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d906dc5aba56575dfc14a29d71b1ede') in 0.074561 seconds 
+  Import took 0.093633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/materiales/Figuras_Cubo_Metalness.png
+  artifactKey: Guid(10ac07d727e74d24491c9f42bc6914c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materiales/Figuras_Cubo_Metalness.png using Guid(10ac07d727e74d24491c9f42bc6914c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ae9750760473e424b4bf6918e28a92') in 0.085246 seconds 
+  Import took 0.090986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/materiales/Figuras_Esfera_BaseColor.png
+  artifactKey: Guid(c59239b37ef797e41bfc2bbc71a539d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materiales/Figuras_Esfera_BaseColor.png using Guid(c59239b37ef797e41bfc2bbc71a539d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8262d88ee00c02e166e0fd3c23062f55') in 0.102145 seconds 
+  Import took 0.119911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/materiales/Figuras_Piramide_Metalness.png
+  artifactKey: Guid(5cf3a1319acd2b84281c257e4954c673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materiales/Figuras_Piramide_Metalness.png using Guid(5cf3a1319acd2b84281c257e4954c673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a164200f156fe02df4f1414fcdda7d95') in 0.067908 seconds 
+  Import took 0.084813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/materiales/Figuras_Piramide_Normal.png
+  artifactKey: Guid(70e4bff101aac2848b69ad2d6284dc17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materiales/Figuras_Piramide_Normal.png using Guid(70e4bff101aac2848b69ad2d6284dc17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d234ce8f1ebc72d1160f23609f7f0ad') in 0.080597 seconds 
+  Import took 0.096288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/materiales/Figuras_Piramide_Height.png
+  artifactKey: Guid(736a5cdb385257e4fa7a8d242f75af47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materiales/Figuras_Piramide_Height.png using Guid(736a5cdb385257e4fa7a8d242f75af47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '217fd46b9fc4fdce6e9bd689619d611b') in 0.101981 seconds 
+  Import took 0.119921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/objetos
+  artifactKey: Guid(c1b46de43003f5b49b85b91725d965b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/objetos using Guid(c1b46de43003f5b49b85b91725d965b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '239270f3f21dd30c1f9fb1a952830226') in 0.013508 seconds 
+  Import took 0.019913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/materiales/Figuras_Esfera_Emissive.png
+  artifactKey: Guid(a7dd8f4add16f314aa719fbefd7e300d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materiales/Figuras_Esfera_Emissive.png using Guid(a7dd8f4add16f314aa719fbefd7e300d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60671713a306e5ffa6accc7f8e8597f4') in 0.116664 seconds 
+  Import took 0.149229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/materiales/Figuras_Esfera_Metalness.png
+  artifactKey: Guid(46ff5897a89172846b7d0794a9303ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materiales/Figuras_Esfera_Metalness.png using Guid(46ff5897a89172846b7d0794a9303ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f187d1ae04fbd16e5830880e4cd9b9') in 0.082378 seconds 
+  Import took 0.101916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/materiales/Figuras_Cubo_Emissive.png
+  artifactKey: Guid(236579b310dd07a40b2934120e3ace6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materiales/Figuras_Cubo_Emissive.png using Guid(236579b310dd07a40b2934120e3ace6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a08dea727ce4dd4b2f929248a6c83305') in 0.144235 seconds 
+  Import took 0.150057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/materiales/Figuras_Cubo_Height.png
+  artifactKey: Guid(218f6db4a45af354a93d694f7b5b7415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materiales/Figuras_Cubo_Height.png using Guid(218f6db4a45af354a93d694f7b5b7415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '632be02bd747dfef40e93eaa8eda7816') in 0.097621 seconds 
+  Import took 0.103512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000831 seconds.
+  path: Assets/objetos/Esfera.obj
+  artifactKey: Guid(d84fdc3bdbe64294394c54f6fb327d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/objetos/Esfera.obj using Guid(d84fdc3bdbe64294394c54f6fb327d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28d61d067aab435279fb9dcc8d944aeb') in 0.074744 seconds 
+  Import took 0.100125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3909.460990 seconds.
+  path: Assets/btn
+  artifactKey: Guid(5b9c7d1f9754eb94389c692f167dee50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/btn using Guid(5b9c7d1f9754eb94389c692f167dee50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '748cfdfd43d9f0a584eb780d944257cb') in 0.021434 seconds 
+  Import took 0.044818 seconds .
+
