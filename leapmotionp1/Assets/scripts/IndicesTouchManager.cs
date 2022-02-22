@@ -43,27 +43,20 @@ public class IndicesTouchManager : MonoBehaviour
     GameObject obj;
     void Start()
     {
-        
+        menuUI.transform.localPosition = Vector3.zero - new Vector3(-0.2f, 0.05f, 0);
     }
 
     // Update is called once per frame
     void Update()
     {
         float handsDistance = (Vector3.Distance(lIndex.position,lThumb.position));
-        
-        //Debug.Log(lPalm.transform.eulerAngles);
 
-        if(lPalm.transform.eulerAngles.x > 60 && lPalm.transform.eulerAngles.x < 90 )
+        if(lPalm.transform.eulerAngles.y < 180 )
         {
             menuUI.SetActive(true);
         }
         else{
             menuUI.SetActive(false);
-        }
-
-        if (lPalm.transform.rotation.y >= 10)
-        {
-            Debug.Log("tESTAAAaaa");
         }
 
         if(Vector3.Distance(lIndex.position,rIndex.position) <= PalmDistance)
