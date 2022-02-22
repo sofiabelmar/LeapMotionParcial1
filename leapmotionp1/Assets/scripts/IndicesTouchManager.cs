@@ -59,6 +59,11 @@ public class IndicesTouchManager : MonoBehaviour
             menuUI.SetActive(true);
         }
 
+        if (lPalm.transform.rotation.y >= 10)
+        {
+            Debug.Log("tESTAAAaaa");
+        }
+
         if(Vector3.Distance(lIndex.position,rIndex.position) <= PalmDistance)
         {
             PinchReady = true;
