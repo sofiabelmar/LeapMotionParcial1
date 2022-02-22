@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Leap;
+using Leap.Unity;
 
 public class IndicesTouchManager : MonoBehaviour
 {
@@ -32,6 +34,9 @@ public class IndicesTouchManager : MonoBehaviour
 
     bool creandoCubo = false;
     GameObject cube;
+
+    [SerializeField]
+    GameObject obj;
     void Start()
     {
         
@@ -41,6 +46,11 @@ public class IndicesTouchManager : MonoBehaviour
     void Update()
     {
         float handsDistance = (Vector3.Distance(lIndex.position,lThumb.position));
+
+        if(lPalm.rotation.z >= 10)
+        {
+
+        }
 
         if(Vector3.Distance(lIndex.position,rIndex.position) <= PalmDistance)
         {
@@ -54,7 +64,7 @@ public class IndicesTouchManager : MonoBehaviour
             && Vector3.Distance(rIndex.position,rThumb.position) <= PinchDistance 
             && creandoCubo == false)
             {
-                cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
+                cube = Instantiate(obj, new Vector3(lPalm.position.x + (Vector3.Distance(lPalm.position,rPalm.position)/2),lPalm.position.y,lPalm.position.z),Quaternion.identity);
                 creandoCubo = true;
             }
         }
