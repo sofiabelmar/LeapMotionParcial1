@@ -51,12 +51,14 @@ public class IndicesTouchManager : MonoBehaviour
     {
         float handsDistance = (Vector3.Distance(lIndex.position,lThumb.position));
         
-        //Debug.Log(lPalm.rotation.eulerAngles);
+        //Debug.Log(lPalm.transform.eulerAngles);
 
-        if(lPalm.transform.eulerAngles.x > 0)
+        if(lPalm.transform.eulerAngles.x > 60 && lPalm.transform.eulerAngles.x < 90 )
         {
-            Debug.Log("menu");
             menuUI.SetActive(true);
+        }
+        else{
+            menuUI.SetActive(false);
         }
 
         if (lPalm.transform.rotation.y >= 10)
