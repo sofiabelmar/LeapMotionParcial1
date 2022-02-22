@@ -37,21 +37,27 @@ public class IndicesTouchManager : MonoBehaviour
     bool PinchReady = false;
 
     bool creandoCubo = false;
+
     GameObject cube;
 
     [SerializeField]
-    GameObject obj;
+    GameObject[] obj;
+
+    public int aux;
+
     void Start()
     {
         menuUI.transform.localPosition = Vector3.zero - new Vector3(-0.2f, 0.05f, 0);
     }
 
+
     // Update is called once per frame
     void Update()
     {
+
         float handsDistance = (Vector3.Distance(lIndex.position,lThumb.position));
 
-        if(lPalm.transform.eulerAngles.y < 180 )
+        if(lPalm.transform.eulerAngles.y < 200 )
         {
             menuUI.SetActive(true);
         }
@@ -62,7 +68,6 @@ public class IndicesTouchManager : MonoBehaviour
         if(Vector3.Distance(lIndex.position,rIndex.position) <= PalmDistance)
         {
             PinchReady = true;
-            Debug.Log(Vector3.Distance(lIndex.position,rIndex.position));
         }
 
         if(PinchReady)
@@ -71,7 +76,7 @@ public class IndicesTouchManager : MonoBehaviour
             && Vector3.Distance(rIndex.position,rThumb.position) <= PinchDistance 
             && creandoCubo == false)
             {
-                cube = Instantiate(obj, new Vector3(lPalm.position.x + (Vector3.Distance(lPalm.position,rPalm.position)/2),lPalm.position.y,lPalm.position.z),Quaternion.identity);
+                cube = Instantiate(obj[aux], new Vector3(lPalm.position.x + (Vector3.Distance(lPalm.position,rPalm.position)/2),lPalm.position.y,lPalm.position.z),Quaternion.identity);
                 creandoCubo = true;
             }
         }
