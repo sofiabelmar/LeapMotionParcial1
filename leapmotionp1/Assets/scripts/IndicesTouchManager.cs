@@ -17,6 +17,9 @@ public class IndicesTouchManager : MonoBehaviour
     Transform lIndex;
 
     [SerializeField]
+    GameObject menuUI;
+
+    [SerializeField]
     Transform lThumb;
     
     [SerializeField]
@@ -24,6 +27,7 @@ public class IndicesTouchManager : MonoBehaviour
 
     [SerializeField]
     Transform rThumb;
+
     [SerializeField]
     Transform rPalm;
 
@@ -46,10 +50,13 @@ public class IndicesTouchManager : MonoBehaviour
     void Update()
     {
         float handsDistance = (Vector3.Distance(lIndex.position,lThumb.position));
+        
+        //Debug.Log(lPalm.rotation.eulerAngles);
 
-        if(lPalm.rotation.z >= 10)
+        if(lPalm.transform.eulerAngles.x > 0)
         {
-
+            Debug.Log("menu");
+            menuUI.SetActive(true);
         }
 
         if(Vector3.Distance(lIndex.position,rIndex.position) <= PalmDistance)
